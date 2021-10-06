@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_characters">
+
+    <fragment
+        android:id="@+id/navigation_characters"
+        android:name="com.intermedia.challenge.ui.characters.CharactersFragment"
+        android:label="@string/main_title"
+        tools:layout="@layout/fragment_characters" >
+        <action
+            android:id="@+id/navigateToCharacterDetail"
+            app:destination="@id/navigation_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.intermedia.challenge.ui.events.EventsFragment"
+        android:label="@string/main_title"
+        tools:layout="@layout/fragment_events" />
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.intermedia.challenge.ui.characters.CharacterDetailFragment"
+        android:label="DetailFragment" >
+        <action
+            android:id="@+id/navigateToCharacterList"
+            app:destination="@id/navigation_characters" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Marvel App</string>
+    <string name="facebook_app_id">763822420995422</string> <string name="fb_login_protocol_scheme">fb763822420995422</string>
+
+
+    <string name="main_title">Marvel Challenge</string>
+    <string name="title_characters">Personajes</string>
+    <string name="title_events">Eventos</string>
+    <string name="apparitions">APPEARS IN THESE COMICS</string>
+    <string name="date_not_available">Fecha no disponible</string>
+    <string name="unable_to_load">No se pudo cargar la lista</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TitleTextDark">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+    </style>
+
+    <style name="TitleTextDarkUppercase">
+        <item name="android:textColor">@color/textDark</item>
+        <item name="android:fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DescriptionText">
+        <item name="android:textColor">@color/textPurple</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="DescriptionTextGrey">
+        <item name="android:textColor">@color/textDarkGrey</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+
+</resources>

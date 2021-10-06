@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="Title">24sp</dimen>
+    <dimen name="TitleMedium">20sp</dimen>
+    <dimen name="TitleSmall">16sp</dimen>
+    <dimen name="Subtitle">14sp</dimen>
+    <dimen name="Text">14sp</dimen>
+</resources>

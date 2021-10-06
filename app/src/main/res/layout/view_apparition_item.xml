@@ -1,0 +1,51 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="appearance"
+            type="com.intermedia.challenge.data.models.Appearance" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp">
+
+        <TextView
+            android:id="@+id/text_apparition_issue"
+            style="@style/DescriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="37dp"
+            android:text="@{appearance.name}"
+            android:textSize="@dimen/TitleSmall"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Iron Man (1968) #55" />
+
+        <!--Aqui deje el texto hardcodeado porque despues de revisar la
+        respuesta no pude encontrar exactamente cual era el año para
+        completar este TV.
+        Tampoco es clickeable en el template asi que no tengo
+        informacion del color, posicion o tamaño de este TV-->
+        <TextView
+            android:id="@+id/text_apparition_year"
+            style="@style/DescriptionTextGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="10dp"
+            android:text="1990"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
